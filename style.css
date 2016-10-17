@@ -2482,14 +2482,17 @@ div.comment { margin-top: 25px; }
 	
 	.post-tags { margin-top: 30px; }
 	
-	.post-navigation:before { content: none; }
+/*	.post-navigation:before { content: none; }*/
 	
+/*
 	.post-navigation-inner {
 		max-width: 100%;
 		padding: 0;
 		margin: 0;
 	}
+*/
 	
+/*
 	.post-nav-prev,
 	.post-nav-next {
 		float: none;
@@ -2498,6 +2501,7 @@ div.comment { margin-top: 25px; }
 	}
 	
 	.post-nav-prev + .post-nav-next { border-top: 1px solid #ddd; }
+*/
 	
 	
 	/* Post Content --------------------------------------- */
