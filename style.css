@@ -2395,6 +2395,10 @@ div.comment { margin-top: 25px; }
 		border-top: 1px solid #ddd;
 		padding: 40px 0 0;
 	}
+  
+  .lovecraft-widget-list {
+    padding-top: 15px;
+  }
 	
 	
 }
