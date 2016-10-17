@@ -2444,7 +2444,10 @@ div.comment { margin-top: 25px; }
 	
 	.content { margin-top: 0; }
 	
-	.post { border: none; }
+	.post { 
+    border: none;
+    margin-top: 20px;
+  }
 		
 	.post + .post { 
 		margin-top: 0; 
@@ -2471,7 +2474,7 @@ div.comment { margin-top: 25px; }
 		
 	.post-image { padding: 7.5% 5% 0 5%; }
 	
-	.post-inner { padding: 7.5% 5%; padding-top: 0;}
+	.post-inner { padding: 7.5% 5%; padding-top: 20px;}
 	
 	.post-image + .post-inner { padding-top: 7%; }
 	
