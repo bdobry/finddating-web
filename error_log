@@ -1,0 +1,2 @@
+[22-May-2016 10:36:48 Europe/Amsterdam] PHP Fatal error:  Call to undefined function get_header() in /home/degratis/public_html/finddating.dk/wp-content/themes/lovecraft/404.php on line 1
+[26-Jul-2016 10:20:18 Europe/Amsterdam] PHP Fatal error:  Call to undefined function get_header() in /home/degratis/public_html/finddating.dk/wp-content/themes/lovecraft/404.php on line 1
