@@ -2312,6 +2312,10 @@ div.comment { margin-top: 25px; }
 	.post + .post,
 	.infinite-wrap .post:first-child { margin-top: 40px; }
 	
+  .post {
+    margin-top: 60px;
+  }
+  
 	.post-inner {
 		max-width: 100%;
 		padding: 7.5%;
@@ -2319,7 +2323,7 @@ div.comment { margin-top: 25px; }
     margin-top: 0;
 	}
 	
-	.post-header + .post-content { margin-top: 30px; }
+	.post-header + .post-content { margin-top: -15px; }
 	
 	.post-title { 
 		font-size: 2.25em; 
