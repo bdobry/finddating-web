@@ -2628,11 +2628,13 @@ div.comment { margin-top: 25px; }
 		padding: 10% 0; 
 	}
 	
+/*
 	.footer .widgets + .widgets,
 	.widget + .widget { 
 		padding-top: 11%; 
 		margin-top: 11%;
 	}
+*/
 	
 	.footer .tagcloud a { background: #ddd; }
 	.footer .tagcloud a:before { border-right-color: #ddd; }
