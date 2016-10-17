@@ -543,6 +543,7 @@ body a,
 	width: 829px;
 	max-width: 100%;
 	padding: 60px;
+  margin-top: 60px;
 }
 
 
@@ -2208,6 +2209,12 @@ div.comment { margin-top: 25px; }
 		color: #ca2017; 
 		cursor: pointer;
 	}
+  
+  /* Footer */
+  
+  .footer .widgets { 
+    width: 44%;
+  }
 	
 	
 }
@@ -2300,6 +2307,8 @@ div.comment { margin-top: 25px; }
 	.post-inner {
 		max-width: 100%;
 		padding: 7.5%;
+    padding-top: 0;
+    margin-top: 0;
 	}
 	
 	.post-header + .post-content { margin-top: 30px; }
@@ -2450,7 +2459,7 @@ div.comment { margin-top: 25px; }
 		
 	.post-image { padding: 7.5% 5% 0 5%; }
 	
-	.post-inner { padding: 7.5% 5%; }
+	.post-inner { padding: 7.5% 5%; padding-top: 0;}
 	
 	.post-image + .post-inner { padding-top: 7%; }
 	
