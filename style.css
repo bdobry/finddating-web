@@ -473,7 +473,7 @@ body a,
 }
 
 .post {
-/*	margin-top:60px;*/
+	margin-top: 60px;
 	display: block;
 	background: #fff;
 	border: 1px solid #ddd;
@@ -2045,6 +2045,14 @@ div.comment { margin-top: 25px; }
 	}
 	
 	.sidebar { display: none; }
+  
+  .post {
+    margin-top: 30px;
+  }
+  
+  .post-inner {
+    padding-top: 30px;
+  }
 
 	
 	/* Navigation --------------------------------------- */
