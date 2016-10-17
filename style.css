@@ -275,12 +275,16 @@ body a,
 /* Blog logo --------------------------------------- */
 
 
-.blog-logo { display: inline-block; }
+.blog-logo { 
+  display: inline-block;
+  padding: 0 20px 0 20px;
+}
 
 .blog-logo img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+  margin: 0 auto;
 }
 
 
@@ -2210,6 +2214,11 @@ div.comment { margin-top: 25px; }
 
 
 @media ( max-width: 600px ) {
+  
+   /*  Brugerbedømmelse top margin*/
+  .widget-content {
+    margin-top: 0;
+  }
 
 
 	/* Structure --------------------------------------- */
@@ -2396,6 +2405,13 @@ div.comment { margin-top: 25px; }
 	
 	/* Content --------------------------------------- */
 	
+  /*  Brugerbedømmelse top margin*/
+  .widget-content {
+    margin-top: 0;
+  }
+  .aggregateRating {
+    text-align: center;
+  }
 	
 	.wrapper { padding: 0; }
 	
