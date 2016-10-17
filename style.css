@@ -2496,7 +2496,7 @@ div.comment { margin-top: 25px; }
 		font-size: 0.75rem;
 	}
 	
-	.post-header + .post-content { margin-top: 7%; }
+	.post-header + .post-content { margin-top: 0; }
 	
 	
 	/* Single Post --------------------------------------- */
@@ -2531,7 +2531,7 @@ div.comment { margin-top: 25px; }
 	/* Post Content --------------------------------------- */
 	
 	
-	.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { margin: 40px 0 20px; }
+	.post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 { margin: 15px 0 20px; }
 	
 	.post-content h1 { font-size: 1.5em; }
 	.post-content h2 { font-size: 1.4em; }
