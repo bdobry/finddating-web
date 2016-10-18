@@ -2724,3 +2724,14 @@ div.comment { margin-top: 25px; }
 	
 	
 }
+
+/* Custom styling for triple boxes */
+
+@media ( max-width: 600px) {
+  #go-pricing-table-925 .gw-go-col-wrap {
+    width: 100% !important;
+  }
+  img.gw-go-responsive-img {
+width: 229px !important;
+  }
+}
