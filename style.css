@@ -291,7 +291,7 @@ body a,
 /* Header image --------------------------------------- */
 
 
-.header-image { max-height: 100px; }
+.header-image { max-height: 115px; }
 
 .has-featured-image .header-image { max-height: none; }
 
@@ -2308,7 +2308,7 @@ div.comment { margin-top: 25px; }
 	
 	.header-wrapper {position: relative;}
 	
-	.header { padding: 10px 0 13px; }
+	.header { padding: 9px 0 0 0; }
 	
 	.header .section-inner { max-width: 100%; }
 	
@@ -2447,7 +2447,7 @@ div.comment { margin-top: 25px; }
   /* Navigation --------------------------------------- */
   
   .blog-logo img {
-	  max-width: 90%;
+	  max-width: 70%;
   }
 	
 	/* Content --------------------------------------- */
