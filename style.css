@@ -2243,6 +2243,7 @@ div.comment { margin-top: 25px; }
 	.big-padding { padding: 50px 0; }
 	.medium-padding { padding: 30px 0; }
 	.small-padding { padding: 20px 0; }
+  .page-title + .posts > .post:first-child { margin-top: 20px; }
 	
 	
 	/* Header --------------------------------------- */
