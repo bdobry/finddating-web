@@ -282,7 +282,7 @@ body a,
 
 .blog-logo img {
 	display: block;
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
   margin: 0 auto;
 }
@@ -2227,31 +2227,11 @@ div.comment { margin-top: 25px; }
 	
 }
 
-
-@media ( max-width: 600px ) {
+@media ( max-width: 1000px ) {
   
-   /*  Brugerbedømmelse top margin*/
-  .widget-content {
-    margin-top: 0;
-  }
-
-
-	/* Structure --------------------------------------- */
+  .header-wrapper {position: relative;}
 	
-	
-	.section { padding: 40px 0; }
-	.big-padding { padding: 50px 0; }
-	.medium-padding { padding: 30px 0; }
-	.small-padding { padding: 20px 0; }
-  .page-title + .posts > .post:first-child { margin-top: 20px; }
-	
-	
-	/* Header --------------------------------------- */
-	
-	
-	.header-wrapper {position: relative;}
-	
-	.header { padding: 10px 0 13px; }
+	.header { padding: 5px 0 0 0; }
 	
 	.header .section-inner { max-width: 100%; }
 	
@@ -2261,10 +2241,9 @@ div.comment { margin-top: 25px; }
 		margin: 0 10%;
 	}
 	
-	.blog-tagline { display: none; }
-	
-	
-	/* Navigation --------------------------------------- */
+  .blog-tagline { display: none; }
+  
+  /* Navigation --------------------------------------- */
 	
 	
 	.navigation { border-top: none; }
@@ -2303,7 +2282,44 @@ div.comment { margin-top: 25px; }
 	.mobile-search { border-top: 1px solid #eee; }
 	
 	.mobile-search form { padding: 5% 0; }
+
+}
+
+@media ( max-width: 600px ) {
+  
+   /*  Brugerbedømmelse top margin*/
+  .widget-content {
+    margin-top: 0;
+  }
+
+
+	/* Structure --------------------------------------- */
 	
+	
+	.section { padding: 40px 0; }
+	.big-padding { padding: 50px 0; }
+	.medium-padding { padding: 30px 0; }
+	.small-padding { padding: 20px 0; }
+  .page-title + .posts > .post:first-child { margin-top: 20px; }
+	
+	
+	/* Header --------------------------------------- */
+	
+	
+	.header-wrapper {position: relative;}
+	
+	.header { padding: 10px 0 13px; }
+	
+	.header .section-inner { max-width: 100%; }
+	
+	.blog-title { 
+		font-size: 1.5em;
+		padding: 0 24px; 
+		margin: 0 10%;
+	}
+	
+	.blog-tagline { display: none; }
+  
 	
 	/* Content --------------------------------------- */
 	
@@ -2428,6 +2444,11 @@ div.comment { margin-top: 25px; }
 
 @media ( max-width: 500px ) {
 	
+  /* Navigation --------------------------------------- */
+  
+  .blog-logo img {
+	  max-width: 90%;
+  }
 	
 	/* Content --------------------------------------- */
 	
@@ -2731,7 +2752,8 @@ div.comment { margin-top: 25px; }
   #go-pricing-table-925 .gw-go-col-wrap {
     width: 100% !important;
   }
+  
   img.gw-go-responsive-img {
-width: 229px !important;
+    width: 229px !important;
   }
 }
