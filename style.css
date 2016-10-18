@@ -1594,7 +1594,7 @@ div.comment { margin-top: 25px; }
 
 .page-title span { color: rgba(255,255,255,0.8); }
 
-.page-title + .posts > .post:first-child { border-top: none; }
+.page-title + .posts > .post:first-child { margin-top: 0; }
 
 
 /* Archive Navigation --------------------------------------- */
