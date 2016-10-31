@@ -469,7 +469,7 @@ body a,
 
 .content {
 	width: 68.7%;
-	float: left;
+	float: right;
 	margin-top: -65px;
 }
 
@@ -1667,7 +1667,7 @@ div.comment { margin-top: 25px; }
 
 .sidebar { 
 	width: 26.3%; 
-	float: right;
+	float: left;
 }
 
 .widget + .widget { 
