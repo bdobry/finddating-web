@@ -101,7 +101,8 @@ body {
 	padding: 0;
 	border: none;
 	color: #111;
-	background: #fafafa;
+/*	background: #fafafa;*/
+  background: #f5f7f8;
 	font-family: 'Playfair Display', 'Georgia', serif;
 	font-size: 17px;
 	-webkit-font-smoothing: antialiased;
@@ -482,7 +483,7 @@ body a,
 }
 
 .post + .post,
-.infinite-wrap .post:first-child { margin-top: 60px; }
+.infinite-wrap .post:first-child { margin-top: 40px; }
 
 
 /* Sticky Post --------------------------------------- */
@@ -829,7 +830,7 @@ body a,
 
 .post-content .more-link {
 	display: inline-block;
-	padding: 15px 18px;
+	padding: 15px 50px;
 	margin: 0;
 	border: 2px solid #111;
 	font-family: 'Lato', Helvetica, sans-serif;
