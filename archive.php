@@ -50,21 +50,11 @@
 				
         <?php 
           $cat_desc = category_description($category_id);
-          $stripped = wp_strip_all_tags($cat_desc, '<p>'); //replace <p> and <a> with whatever tags you want to keep after the strip
+          $stripped = strip_tags($cat_desc, '<strong><a><b><i><br><img><em>'); //replace <p> and <a> with whatever tags you want to keep after the strip
         ?>
-        <div class="category" style="margin-bottom: 30px;
-    font-family: Open Sans, sans-serif;
-    padding: 20px 0 20px 40px;
-    border-left: 5px solid #ca2017;">
-				  <h1 class="widget-title" style="    border: none;
-				      font-size: 20px;
-				      margin: 0;
-				      color: #333;
-				      font-weight: 900;"><?php single_cat_title(); ?></h1>
-				  <?php if (!empty($stripped)) {echo '<p style="    line-height: 25px;
-    font-size: 15px;
-    margin-top:20px;
-    max-width: 600px;">' . $stripped . '</p>'; }?>
+        <div class="categories">
+				  <h1 class="widget-title"><?php single_cat_title(); ?></h1>
+				  <?php if (!empty($stripped)) {echo '<p class="category-description">' . $stripped . '</p>'; }?>
 				</div>
 				
 				<div class="posts" id="posts">
