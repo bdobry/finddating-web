@@ -13,7 +13,7 @@
 				<h2 class="comments-title">
 				
 					<?php echo count($wp_query->comments_by_type['comment']) . ' ';
-					echo _n( 'Comment' , 'Comments' , count($wp_query->comments_by_type['comment']), 'lovecraft' ); ?>
+					echo _n( 'Kommentar' , 'Kommentarer' , count($wp_query->comments_by_type['comment']), 'lovecraft' ); ?>
 					
 				</h2>
 				
@@ -21,7 +21,7 @@
 				
 					<p class="comments-title-link">
 						
-						<a href="#respond"><?php _e('Add Comment','lovecraft'); ?> &rarr;</a>
+						<a href="#respond"><?php _e('Tilføj kommentar','lovecraft'); ?> &rarr;</a>
 						
 					</p>
 				
