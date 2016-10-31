@@ -58,11 +58,13 @@
     border-left: 5px solid #ca2017;">
 				  <h1 class="widget-title" style="    border: none;
 				      font-size: 20px;
+				      margin: 0;
 				      color: #333;
 				      font-weight: 900;"><?php single_cat_title(); ?></h1>
-				  <p style="    line-height: 25px;
+				  <?php if (!empty($stripped)) {echo '<p style="    line-height: 25px;
     font-size: 15px;
-    max-width: 600px;"><?php echo $stripped; ?></p>
+    margin-top:20px;
+    max-width: 600px;">' . $stripped . '</p>'; }?>
 				</div>
 				
 				<div class="posts" id="posts">
