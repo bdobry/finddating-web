@@ -83,7 +83,7 @@ add_action('wp_enqueue_scripts', 'lovecraft_load_style');
 
 function lovecraft_load_style() {
 	if ( !is_admin() ) {
-	    wp_enqueue_style( 'lovecraft_googleFonts', '//fonts.googleapis.com/css?family=Lato:400,700,900|Playfair+Display:400,700,400italic' );
+	    wp_enqueue_style( 'lovecraft_googleFonts', '//fonts.googleapis.com/css?family=Open+Sans:400,700,900|Playfair+Display:400,700,400italic' );
 	    wp_enqueue_style( 'lovecraft_genericons', get_template_directory_uri() . '/genericons/genericons.css' );
 	    wp_enqueue_style( 'lovecraft_style', get_stylesheet_uri() );
 	}
