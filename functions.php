@@ -339,7 +339,7 @@ function lovecraft_comment( $comment, $args, $depth ) {
 						
 						<?php 
 							comment_reply_link( array( 
-								'reply_text' 	=>  	__('Reply','lovecraft'),
+								'reply_text' 	=>  	__('Svar','lovecraft'),
 								'depth'			=> 		$depth, 
 								'max_depth' 	=> 		$args['max_depth'],
 								'before'		=>		'<div class="fright"><div class="genericon genericon-reply"></div>',
