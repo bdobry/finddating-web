@@ -473,10 +473,11 @@ body a,
 }
 
 .post {
-	margin-top: 60px;
+/*	margin-top: 60px;*/
 	display: block;
 	background: #fff;
-	border: 1px solid #ddd;
+/*	border: 1px solid #ddd;*/
+  border: 1px solid #fafafa;
 	position: relative;
 }
 
@@ -543,7 +544,7 @@ body a,
 	width: 829px;
 	max-width: 100%;
 	padding: 60px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 
@@ -2047,7 +2048,7 @@ div.comment { margin-top: 25px; }
 	.sidebar { display: none; }
   
   .post {
-    margin-top: 30px;
+/*    margin-top: 30px;*/
   }
   
   .post-inner {
@@ -2330,7 +2331,7 @@ div.comment { margin-top: 25px; }
 	.infinite-wrap .post:first-child { margin-top: 40px; }
 	
   .post {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   
 	.post-inner {
@@ -2473,7 +2474,7 @@ div.comment { margin-top: 25px; }
 	
 	.post { 
     border: none;
-    margin-top: 20px;
+    margin-top: 0;
   }
 		
 	.post + .post { 
