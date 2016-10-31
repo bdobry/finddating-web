@@ -543,7 +543,7 @@ body a,
 .post-inner {
 	width: 829px;
 	max-width: 100%;
-	padding: 60px;
+	padding: 40px;
   margin-top: 50px;
 }
 
@@ -785,6 +785,10 @@ body a,
 .post-content pre {
 	line-height: 170%;
 	margin-bottom: 1.5em;
+}
+
+.post-content p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .post-content *:last-child { margin-bottom: 0; }
