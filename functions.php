@@ -95,7 +95,7 @@ add_action( 'init', 'lovecraft_add_editor_styles' );
 
 function lovecraft_add_editor_styles() {
     add_editor_style( 'lovecraft-editor-styles.css' );
-    $font_url = '//fonts.googleapis.com/css?family=Lato:400,700,900|Playfair+Display:400,700,400italic';
+    $font_url = '//fonts.googleapis.com/css?family=Open+Sans:400,700,900|Playfair+Display:400,700,400italic';
     add_editor_style( str_replace( ',', '%2C', $font_url ) );
 }
 
